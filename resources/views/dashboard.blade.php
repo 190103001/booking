@@ -18,7 +18,7 @@
                                 <div class="item__image">
                                     @foreach($ad_photo as $photo)
                                         @if($photo->ad_id == $ad->id)
-                                            <img src="{{ 'http://localhost:8888/Booking/storage/app/'.$photo->filename }}" alt="">
+                                            <img src="{{ 'http://lab13-lv.herokuapp.com/storage/app/'.$photo->filename }}" alt="">
                                             @break;
                                         @endif
                                     @endforeach
