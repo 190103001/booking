@@ -55,7 +55,7 @@
                                 <div class="title">
                                     <a href="ad/{{ $ad->id }}">{{ $ads[0]->number_of_rooms }}-{{ __('lang.room') }}
                                         @if($ads[0]->rent_out == 'apartment')
-                                            {{ __('lang.Flat') }}
+                                            {{ __('lang.flat') }}
                                         @elseif($ads[0]->rent_out == 'house')
                                             {{ __('lang.house') }}
                                         @elseif($ads[0]->rent_out == 'dacha')
