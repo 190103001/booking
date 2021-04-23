@@ -66,7 +66,7 @@
                     <ul class="splide__list">
                         @foreach($ad_photo as $photo)
                             <li class="splide__slide">
-                                <img src="{{ 'http://localhost:8888/Booking/storage/app/'.$photo->filename }}" alt="">
+                                <img src="https://cf.bstatic.com/images/hotel/max1024x768/162/162182704.jpg" alt="">
                             </li>
                         @endforeach
                     </ul>
