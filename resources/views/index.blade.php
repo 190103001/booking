@@ -45,7 +45,7 @@
                         <div class="picture">
                             @foreach($ad_photo as $photo)
                                 @if($photo->ad_id == $ad->id)
-                                    <img src="{{ '/storage/app/'.$photo->filename }}" alt="">
+                                    <img src="https://cf.bstatic.com/images/hotel/max1024x768/162/162182704.jpg" alt="">
                                     @break;
                                 @endif
                             @endforeach
