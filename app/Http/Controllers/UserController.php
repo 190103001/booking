@@ -79,7 +79,7 @@ class UserController extends Controller {
                     ]);
                 }
 
-                app('App\Http\Controllers\MailController')->send($request->owner_id);
+//                app('App\Http\Controllers\MailController')->send($request->owner_id);
                 return redirect('/dashboard');
                 echo 'Ok';
             } else {
