@@ -45,7 +45,7 @@
                         <div class="picture">
                             @foreach($ad_photo as $photo)
                                 @if($photo->ad_id == $ad->id)
-                                    <img src="{{ 'http://localhost:8888/Booking/storage/app/'.$photo->filename }}" alt="">
+                                    <img src="{{ '/storage/app/'.$photo->filename }}" alt="">
                                     @break;
                                 @endif
                             @endforeach
