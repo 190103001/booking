@@ -28,7 +28,7 @@
                         <input type="text" name="number_of_rooms"><br><br>
 
 
-                        <span>{{ __('lang.number_of_rooms') }}</span><br>
+                        <span>{{ __('lang.price') }}</span><br>
                         <input type="text" name="price"><br><br>
 
 

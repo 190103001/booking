@@ -10,6 +10,7 @@ return [
     'address' => 'Address',
     'phone' => 'Phone',
     'number_of_rooms' => 'Number of rooms',
+    'price' => 'Price',
     'total_area' => 'Total area',
     'floor' => 'Floor',
     'from' => 'From',

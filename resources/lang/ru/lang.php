@@ -10,6 +10,7 @@ return [
     'address' => 'Адрес',
     'phone' => 'Телефон',
     'number_of_rooms' => 'Количество комнат',
+    'price' => 'Цена',
     'total_area' => 'Общая площадь, м²',
     'floor' => 'Этаж',
     'from' => 'из',
